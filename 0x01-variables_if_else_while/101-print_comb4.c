@@ -18,8 +18,8 @@ int main(void)
 	{
 	if (q != r)
 	{
-	putchar(',');
-	putchar(' ');
+	putchar(',' + '0');
+	putchar(' ' + '0');
 	}
 	}
 	}
