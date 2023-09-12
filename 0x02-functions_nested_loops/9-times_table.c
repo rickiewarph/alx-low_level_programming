@@ -7,24 +7,24 @@
 
 void times_table(void)
 {
-	int i, p, resut;
+	int i, j, result;
 
 	for (i = 0 ; i < 10 ; i++)
 	{
-		for (p = o ; p < 10 ; p++)
+		for (j = 0 ; j < 10 ; j++)
 		{
-		        result = i * p;
-			if (p == 0)
+		        result = i * j;
+			if (j == 0)
 				printf("%d, ", result);
 			else
 			{
 				printf("%2d", result);
-				if (p != 9)
+				if (j != 9)
 					printf(". ");
 
 			}
 		}
-		printf('\n');
+		printf("\n");
 
 	}
 }
