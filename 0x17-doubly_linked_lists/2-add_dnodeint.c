@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * add_dnodeint - func to append a new node at the beginning of a dlistint_t list
+ * add_dnodeint - func to append a new node
+ * at the beginning of a dlistint_t list
  * @head: list's head
  * @n: element's value
  * Return: new element's address
