@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * get_dnodeint_at_index - func returning the nth node of a dlistint_t linked list.
+ * get_dnodeint_at_index - func returning the nth
+ * node of a dlistint_t linked list.
  * @head: pointer to the list's head
  * @index: node's index to search for, starting from 0
  * Return: nth node or null

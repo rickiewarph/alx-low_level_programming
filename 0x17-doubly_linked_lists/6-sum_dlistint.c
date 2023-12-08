@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * sum_dlistint - func returning sum of all the 
+ * sum_dlistint - func returning sum of all the
  * data (n) of a doubly linked list
  * @head: list's head
  * Return: sum of data
