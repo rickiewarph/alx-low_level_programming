@@ -3,7 +3,7 @@
 /**
  * hash_table_create - funct to creates a hash table.
  * @size: The array's sie
- * Return: If an error occurs(NULL) or 
+ * Return: If an error occurs(NULL) or
  * a pointer to the new hash table(otherwise)
  */
 
