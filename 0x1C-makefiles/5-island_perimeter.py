@@ -20,9 +20,9 @@ def island_perimeter(grid):
     for m in range(heght):
         for n in range(wdth):
             if grid[m][n] == 1:
-                size += 1
+                sze += 1
                 if (n > 0 and grid[m][n - 1] == 1):
                     edgs += 1
                 if (m > 0 and grid[m - 1][n] == 1):
                     edgs += 1
-    return size * 4 - edgs * 2
+    return sze * 4 - edgs * 2
